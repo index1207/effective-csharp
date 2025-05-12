@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 
-class Program
+public class CastTest
 {
-    static void Main(String[] args)
+    public void CastListIntToDouble()
     {
         var list = new List<int>() { 1, 2, 3 };
         list.Cast<double>();
     }
 }
-
